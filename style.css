@@ -1,0 +1,39 @@
+/* FONT FAMILY */
+/*    font-family: 'Roboto', sans-serif; */
+
+
+body{
+    background-color: #e4eef6;
+    /*margin:0;*/
+}
+
+/* GRID */
+.grid-container{
+    margin-top: 40px;
+    justify-content: center; /*centrer notre grid horizontalement*/
+    align-content:center; /*centrer notre grid verticalement*/
+    display:grid;
+    grid-template-columns: repeat(4,270px);/* largeur des quatres colonnes*/
+    grid-auto-rows:397px; /*hauteur des lignes donc des colonnes*/
+    gap:35px; /*espace entre les colonnes et les lignes*/
+}
+
+.grid-item{
+    display: grid;
+    background-color:white;
+    justify-items: center;
+    text-align: center;
+}
+
+/* CONTENT */
+
+i{
+    margin-top: 44px;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+
