@@ -7,7 +7,7 @@ body {
 }
 /* GRID */
 .grid-container {
-    width: 100%;
+    
     margin-top: 40px;
     margin-bottom: 40px;
     justify-content: center;
@@ -15,9 +15,9 @@ body {
     align-content: center;
     /*centrer notre grid verticalement*/
     display: grid;
-    grid-template-columns: repeat(auto-fill,270px);
+    grid-template-columns: repeat(auto-fill,1fr);
     /* largeur des quatres colonnes*/
-    grid-auto-rows: min-width;
+    grid-auto-rows: min-content max-content auto;
     /*hauteur des lignes donc des colonnes*/
     gap: 35px;
     /*espace entre les colonnes et les lignes*/
@@ -54,6 +54,8 @@ hr {
     width: 70px;
 }
 a {
+    display:inline-block;
+    margin-bottom: 30px;
     padding-top: 10px;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
